@@ -61,3 +61,6 @@ perro2.es_adulto()
 perro2.subir_peso()
 
 print("-----------------------------")
+
+perro3 = Perro(perro1.get_nombre(), perro1.get_raza(), perro1.get_edad(), perro1.get_peso(), perro1.get_embarazada())
+perro3.info()
