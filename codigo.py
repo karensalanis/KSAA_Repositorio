@@ -45,3 +45,11 @@ edad = int(input("ingresa edad: "))
 peso = float(input("ingresa peso: "))
 embarazada = input("esta embarazada (si/no): ")
 
+perro1 = Perro(nombre, raza, edad, peso, embarazada)
+
+print("perro 1 creado")
+perro1.info()
+perro1.es_adulto()
+perro1.subir_pesdo()
+
+print("-----------------------------")
