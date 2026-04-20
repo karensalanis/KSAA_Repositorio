@@ -53,3 +53,11 @@ perro1.es_adulto()
 perro1.subir_pesdo()
 
 print("-----------------------------")
+
+perro2 = Perro("Max", "pomerania", 4, 12, "no")
+print("Perro 2")
+perro2.info()
+perro2.es_adulto()
+perro2.subir_peso()
+
+print("-----------------------------")
