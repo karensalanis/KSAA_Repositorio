@@ -38,4 +38,10 @@ class Perro:
             print("es adulto")
         else:
             print("es cachorro")
-            
+print ("Perro 1")
+nombre = input("ingresa nombre: ")
+raza = input("ingresa raza: ")
+edad = int(input("ingresa edad: "))
+peso = float(input("ingresa peso: "))
+embarazada = input("esta embarazada (si/no): ")
+
