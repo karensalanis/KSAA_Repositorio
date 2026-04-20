@@ -38,6 +38,9 @@ class Perro:
             print("es adulto")
         else:
             print("es cachorro")
+    def subir_peso(self) :
+        self.__peso = self.__peso + 1
+        print ("Nuevo peso:", self.__peso)
 print ("Perro 1")
 nombre = input("ingresa nombre: ")
 raza = input("ingresa raza: ")
@@ -50,7 +53,7 @@ perro1 = Perro(nombre, raza, edad, peso, embarazada)
 print("perro 1 creado")
 perro1.info()
 perro1.es_adulto()
-perro1.subir_pesdo()
+perro1.subir_peso()
 
 print("-----------------------------")
 
