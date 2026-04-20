@@ -32,4 +32,10 @@ class Perro:
         print (self.__edad)
         print (self.__peso)
         print (self.__embarazada)
-
+    
+    def es_adulto(self):
+        if self.__edad >= 2:
+            print("es adulto")
+        else:
+            print("es cachorro")
+            
