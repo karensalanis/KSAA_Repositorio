@@ -28,3 +28,25 @@ Class Mi_Clase:
         print("Num2:", self.__num2)
         print("Num3:", self.__num3)
 
+    def sumar(self):
+        resultado = self.__num1 + self.__num2 + self.__num3
+        print("Suma:", resultado)
+
+    def mayor(self):
+        mayor = max(self.__num1, self.__num2, self.__num3)
+        print("Mayor:", mayor)
+
+    def menor(self):
+        menor = min(self.__num1, self.__num2, self.__num3)
+        print("Menor:", menor)
+
+    def iguales(self):
+        if self.__num1 == self.__num2 == self.__num3:
+            print("Son iguales")
+        else:
+            print("No son iguales")
+
+    def concatenar(self):
+        texto = str(self.__num1) + str(self.__num2) + str(self.__num3)
+        print("Concatenación:", texto)
+
