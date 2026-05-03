@@ -66,3 +66,14 @@ obj1.iguales()
 obj1.concatenar()
 
 print("-----------------------------")
+
+obj2 = Mi_Clase(5, 5, 5)
+print("Objeto 2")
+obj2.info()
+obj2.sumar()
+obj2.mayor()
+obj2.menor()
+obj2.iguales()
+obj2.concatenar()
+
+print("-----------------------------")
