@@ -49,4 +49,20 @@ Class Mi_Clase:
     def concatenar(self):
         texto = str(self.__num1) + str(self.__num2) + str(self.__num3)
         print("Concatenación:", texto)
+    
+print("Objeto 1")
+num1 = int(input("Ingresa num1: "))
+num2 = int(input("Ingresa num2: "))
+num3 = int(input("Ingresa num3: "))
 
+obj1 = Mi_Clase(num1, num2, num3)
+
+print("Objeto 1 creado")
+obj1.info()
+obj1.sumar()
+obj1.mayor()
+obj1.menor()
+obj1.iguales()
+obj1.concatenar()
+
+print("-----------------------------")
