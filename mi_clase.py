@@ -77,3 +77,7 @@ obj2.iguales()
 obj2.concatenar()
 
 print("-----------------------------")
+
+obj3 = Mi_Clase(obj1.get_num1(), obj1.get_num2(), obj1.get_num3())
+print("Objeto 3 (copia del objeto 1)")
+obj3.info()
