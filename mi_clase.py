@@ -23,5 +23,8 @@ Class Mi_Clase:
     def set_num3(self, num3):
         self.__num3 = num3
 
-
+    def info(self):
+        print("Num1:", self.__num1)
+        print("Num2:", self.__num2)
+        print("Num3:", self.__num3)
 
